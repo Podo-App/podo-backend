@@ -9,7 +9,7 @@ async function bootstrap() {
     .setTitle('Hello World')
     .setDescription('Hello world API')
     .setVersion('1.0')
-    .addTag('helloworld')
+    .addTag('hello world')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
